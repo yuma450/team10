@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bpyevpyu03sxt"]
+
+[ext_resource type="Script" uid="uid://cbviujvw5i1se" path="res://actor.gd" id="1_hr3hk"]
+
+[node name="Actor" type="Area2D" unique_id=1239789849]
+collision_mask = 4294967295
+script = ExtResource("1_hr3hk")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=712688549]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=881902376]
+
+[node name="VisibleOnScreenEnabler2D" type="VisibleOnScreenEnabler2D" parent="." unique_id=1459474429]
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="screen_exited" from="VisibleOnScreenEnabler2D" to="." method="_on_visible_on_screen_enabler_2d_screen_exited"]

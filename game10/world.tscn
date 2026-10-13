@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://6o7fxp26ru0v"]
+
+[ext_resource type="Script" uid="uid://p386cciuastt" path="res://world.gd" id="1_f3sb7"]
+
+[node name="World" type="Node2D" unique_id=1137961271]
+script = ExtResource("1_f3sb7")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1597890546]
+centered = false
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1596799062]
+
+[node name="Label" type="Label" parent="CanvasLayer" unique_id=358788487]
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_font_sizes/font_size = 64
+text = "ラベル"
