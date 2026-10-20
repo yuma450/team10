@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://txpdsqrh32qk"]
+
+[ext_resource type="PackedScene" uid="uid://bpyevpyu03sxt" path="res://actor.tscn" id="1_cs3gn"]
+[ext_resource type="Script" uid="uid://b4glo6foh423u" path="res://hanako.gd" id="2_nlwgb"]
+[ext_resource type="Texture2D" uid="uid://biys8sefitnrq" path="res://img/HANAKO.png" id="3_6b2a0"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_h5rdx"]
+radius = 26.0
+height = 58.0
+
+[node name="HANAKO" unique_id=1239789849 instance=ExtResource("1_cs3gn")]
+script = ExtResource("2_nlwgb")
+
+[node name="Sprite2D" parent="." index="0" unique_id=712688549]
+texture = ExtResource("3_6b2a0")
+
+[node name="CollisionShape2D" parent="." index="1" unique_id=881902376]
+shape = SubResource("CapsuleShape2D_h5rdx")

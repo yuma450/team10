@@ -12,9 +12,14 @@ config_version=5
 
 <<<<<<< HEAD
 config/name="godot_template-v2"
+<<<<<<< HEAD
 config/features=PackedStringArray("4.6", "Forward Plus")
 =======
+run/main_scene="uid://txpdsqrh32qk"
+>>>>>>> bd767f34b21be09b915a85232fca1fe16a0880b0
+=======
 config/name="godot_template-team10"
+>>>>>>> acd981b13796c51148bc443e17d8586a4c587060
 config/features=PackedStringArray("4.7", "Forward Plus")
 >>>>>>> acd981b13796c51148bc443e17d8586a4c587060
 
