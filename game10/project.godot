@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="godot_template-v2"
+config/name="godot_template-team10"
 config/features=PackedStringArray("4.7", "Forward Plus")
 
 [display]
