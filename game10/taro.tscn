@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://ckwf7wqcm5m8e"]
+
+[ext_resource type="PackedScene" uid="uid://bpyevpyu03sxt" path="res://actor.tscn" id="1_a0jkj"]
+[ext_resource type="Script" uid="uid://bstk20dohelww" path="res://taro.gd" id="2_13paa"]
+[ext_resource type="Texture2D" uid="uid://8h5l1d6kxh4j" path="res://img/TARO.png" id="3_h3h2u"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_hjgum"]
+radius = 22.0
+height = 70.0
+
+[node name="TARO" unique_id=1239789849 instance=ExtResource("1_a0jkj")]
+script = ExtResource("2_13paa")
+
+[node name="Sprite2D" parent="." index="0" unique_id=712688549]
+texture = ExtResource("3_h3h2u")
+
+[node name="CollisionShape2D" parent="." index="1" unique_id=881902376]
+shape = SubResource("CapsuleShape2D_hjgum")
