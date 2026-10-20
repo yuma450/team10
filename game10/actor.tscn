@@ -1,15 +1,21 @@
 [gd_scene format=3 uid="uid://bpyevpyu03sxt"]
 
-[ext_resource type="Script" uid="uid://cbviujvw5i1se" path="res://actor.gd" id="1_hr3hk"]
+[ext_resource type="Script" uid="uid://bs6ngn87ik7of" path="res://apple.gd" id="1_hr3hk"]
+[ext_resource type="Texture2D" uid="uid://gf7upnism62q" path="res://img/APPLE.png" id="2_oka2p"]
 
-[node name="Actor" type="Area2D" unique_id=1239789849]
+[sub_resource type="CircleShape2D" id="CircleShape2D_epby1"]
+radius = 23.0
+
+[node name="APPLE" type="Area2D" unique_id=1239789849]
 collision_mask = 4294967295
 script = ExtResource("1_hr3hk")
 metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=712688549]
+texture = ExtResource("2_oka2p")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=881902376]
+shape = SubResource("CircleShape2D_epby1")
 
 [node name="VisibleOnScreenEnabler2D" type="VisibleOnScreenEnabler2D" parent="." unique_id=1459474429]
 
