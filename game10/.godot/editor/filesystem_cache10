@@ -1,0 +1,14 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1792455963
+actor.gd::GDScript::3792731511731901094::1791854412::0::1::::Actor<>Area2D<><>0<>0<><>::
+actor.tscn::PackedScene::3489079599872887257::1791854412::0::1::::<><><>0<>0<><>::uid://cbviujvw5i1se::::res://actor.gd
+my_world.gd::GDScript::1583523357533495369::1792455854::0::1::::<>World<><>0<>0<><>::
+my_world.tscn::PackedScene::7377699099394119070::1792455854::0::1::::<><><>0<>0<><>::uid://6o7fxp26ru0v::::res://world.tscn<>uid://wtcnsqp8n6dp::::res://my_world.gd<>uid://cu8r7k323oo07::::res://img/MyWorld.jpg
+world.gd::GDScript::3172355173408669707::1791854413::0::1::::World<>Node2D<><>0<>0<><>::
+world.tscn::PackedScene::2206708546551886671::1791854413::0::1::::<><><>0<>0<><>::uid://p386cciuastt::::res://world.gd
+::res://img/::1791854413
+APPLE.png::CompressedTexture2D::433434418565873378::1791854412::1792456002::1::::<><><>0<>0<>343637cbcb222a2f03ed7fb256ecb6f4<>res://.godot/imported/APPLE.png-d3e1056194ad5794ad2e2c56bfee9998.ctex::
+HANAKO.png::CompressedTexture2D::2998629287801603134::1791854412::1792456002::1::::<><><>0<>0<>a2b2885d99af35af4308d788865dda77<>res://.godot/imported/HANAKO.png-b6e869c0f0712b0eb8e94476ef229d42.ctex::
+MyWorld.jpg::CompressedTexture2D::6245832610065575226::1791854413::1792456002::1::::<><><>0<>0<>a403ed20b5a7d518edb8d6726e154a20<>res://.godot/imported/MyWorld.jpg-9356ccfaa0bcb1edaa96d46178b6a1e7.ctex::
+ORANGE.png::CompressedTexture2D::553414994883800785::1791854413::1792456002::1::::<><><>0<>0<>3bec65ab319154a800cb67e7974411df<>res://.godot/imported/ORANGE.png-0cd5c855667a950ecc94c2b1008201b7.ctex::
+TARO.png::CompressedTexture2D::2332525009513726455::1791854413::1792456002::1::::<><><>0<>0<>530c8008271de284a91b195fe85e2449<>res://.godot/imported/TARO.png-6bb4a54632e0c405f78ec5d2afaf9edc.ctex::
