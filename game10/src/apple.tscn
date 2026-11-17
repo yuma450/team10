@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://birorjaf7130i"]
+
+[ext_resource type="Script" uid="uid://b3hvbal3u6073" path="res://apple.gd" id="2_xniv1"]
+[ext_resource type="Texture2D" uid="uid://gf7upnism62q" path="res://img/APPLE.png" id="3_aq6lu"]
+[ext_resource type="PackedScene" uid="uid://bpyevpyu03sxt" path="res://actor.tscn" id="res://actor.tscn"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_iwwmp"]
+radius = 23.194826
+
+[node name="APPLE" unique_id=1239789849 instance=ExtResource("res://actor.tscn")]
+script = ExtResource("2_xniv1")
+
+[node name="Sprite2D" parent="." index="0" unique_id=712688549]
+texture = ExtResource("3_aq6lu")
+
+[node name="CollisionShape2D" parent="." index="1" unique_id=881902376]
+shape = SubResource("CircleShape2D_iwwmp")
